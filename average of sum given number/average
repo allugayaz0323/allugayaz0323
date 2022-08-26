@@ -1,0 +1,19 @@
+# include <stdio.h>
+int main()
+{int k;
+printf("give me how many students:-");
+scanf("%d",&k);
+    int x[k],i;
+    float sum=0,avg;
+    printf("give marks of students:-\n");
+
+    for (i=0;i<k;i++)
+        scanf("%d",&x[i]);
+    for (i=0;i<k;i++)
+     sum=sum+x[i];
+     avg=sum/k;
+     printf("sum=%.2f\n",sum);
+    printf("avg=%.2f",avg);
+
+return 0;
+}
