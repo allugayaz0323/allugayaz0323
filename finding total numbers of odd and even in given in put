@@ -1,0 +1,21 @@
+#include <stdio.h>
+//to print total numbers of odd and even  element in given input 'user input formet'
+int main()
+{
+    int k,x[k],even=0,odd=0;
+    printf("total number of input:-");
+    scanf("%d",&k);
+    printf("give me the input:-");
+    scanf("%d",&x[]);
+    for (i=0;i<k;i++){
+        scanf("%d",&x[i]);
+        if (x[i]%2==0);
+         even++;
+        else 
+            odd++;
+    }
+    printf("total number of even elements:-%d",even);
+    printf("total number of odd elements:-%d",odd);
+    return 0;
+        
+}
