@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    body {
+        color: rgb(255, 255, 255);
+        margin: 0px;
+        padding: 0px;
+        background: url('https://images.pexels.com/photos/2733918/pexels-photo-2733918.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+        height: 1500px;
+    }
+    .left {
+        position: absolute;
+        left: 25px;
+        top: 25;
+        display: inline-block;
+       /* border: 5px solid mediumpurple;*/
+
+    }
+    .left img {
+        width: 85px;
+        padding: 10px 10px;
+    }
+    .left div {
+        text-align: center;
+        font-size: larger;
+    }
+    .mid {
+        /*border: 5px solid black;*/
+        display: block;
+        width: 40%;
+        margin: 20px auto;
+        top: 100px;
+        background-color: black;
+        border-radius: 15px;
+    }
+    .right {
+        display: block;
+        margin:20px auto;
+        position: absolute;
+        right: 35px;
+        top: 10px;
+        display: inline-block;
+       /* border: 5px solid black;*/
+    }
+    .naavber {
+        display: inline-block;
+    }
+    .navber li {
+        display: inline-block;
+        font-size: 25px;
+    }
+    .navber li a {
+        color: white;
+        text-decoration-line: none;
+        padding: 15px 15px;
+    }
+    .navber li a:hover,
+    .navber li a.active {
+        color: pink;
+        text-decoration-line: underline;
+    }
+    .btn {
+        margin: 0px 10px;
+        color: white;
+        background-color: black;
+        padding: 10px 10px;
+        border-radius: 10px;
+       font-size: 15px;
+        cursor: pointer;
+    }
+    .btn:hover {
+        color: pink;
+        text-decoration-line: underline;
+    }
+    .container {
+        border: 2px solid rgb(255, 255, 255);
+        margin: 120px 480px;
+        padding: 75px;
+        width: 33%;
+        border-radius: 7px;
+    }
+    .form-group input {
+        text-align: center;
+        display: block;
+        width: 350px;
+        padding: 10px;
+        border: 2px solid whitesmoke;
+        margin: 10px auto;
+        font-size: 20px;
+        border-radius: 15px;
+    }
+    .container h2{
+        text-align: center;
+    }
+    .container button{
+        display: block;
+        width:20%;
+        margin: auto;
+    }
+    .submit button{
+        font-size: 20px;
+        display: block;
+        width: 40%;
+        margin-left:auto;
+        text-decoration-line: underline;
+    }
+</style>
+<body>
+    <header class="header">
+        <!--left box for logo-->
+        <div class="left">
+            <img src="th.jpeg" alt="">
+            <div>
+                saideep super store
+            </div>
+        </div>
+        <!--mid box for navigation-->
+        <div class="mid">
+            <ul class="navber">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Price claculator</a></li>
+                <li><a href="#">Location</a></li>
+            </ul>
+        </div>
+        <!--right box for buttons-->
+        <div class="right">
+            <button class="btn">Contact Us</button>
+            <button class="btn">Mail Us </button>
+        </div>
+    </header>
+    <div class="container">
+        <h2>EAT FRESH DIRECT FROM THE FORMS</h2>
+        <form action="noactionphp">
+            <div class="form-group">
+                <input type="text" name="" placeholder="ENTER YOUR NAME">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="ENTER YOUR ADDRESS">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="ENTER YOUR MOBILE NUMBER">
+            </div>
+            <div class="submit">
+                <button class="btn">SUBMIT</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
